@@ -1,7 +1,6 @@
 # Lending Club
 Lending club is an online loan market platform, facilitating personal loans, business loans and loans for medical purposes. The objective of this case study is to identify the risky applicants who are likely to default and there by minimize the financial loss to the company by analyzing the past data through Exploratory data analysis(EDA).
 
-
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -24,10 +23,33 @@ When a customer applies for a loan, the company can the following two decisions 
   2. Loan rejected: The company had rejected the loan after evaluating the candidate profile. Since loan is rejected, there is no transactional history of those applicants and hence data is not available with company.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1. There is a steady increase in the issuance of loan
+2. It is clear that 60 Lakhs as the annual income is an outlier as most people annual income fall between 0-2 Lakhs as we see in the previous graph
+3. 14.2% persons are labelled as 'Charged Off'
+4. Most people opted for 36 years as their loan term
+5. People with Annual income below 2 lakhs have taken more loans
+6. People with Employment Length > 10 years have taken more loan
+7. People have 7%-12% of rate of interest have opted more loans
+8. Most people who opted for loan didnt make any enquiries or only less number of enquiries.
+9. People who has RENT or MORTGAGE takes loan
+10. Maximum loans were provided without verification
+11. Pepole get loans more for the category 'debt_consolidation'
+12. People in 'CA' have taken more loans
+13. Correlation between variable that are observed on heatmap
+14. loan amount, funded amount,funded_amnt_inv and installments show high correlation amongst each other, hence any one column can be taken for consideration for analysis.
+15. total_payment,total payment_inv,total_rec_prncp and total_rec_int exhibit the same feature.
+16. pub_rec_bankruptcy and pub_rec show 100% correlation.
+17. recoveries and collection_recovery show a high correlation of 80% hence one of them can be discarded.
+18. current applicants show a high correlation to out_prncp and out_prncp_inv
+19. From the graph - 'Charged off persons - Term Frequency', In both 36 months and 60 months, persons who are labelled as 'Charged Off' are available.
+20. On comparing the term ratio (Number of persons who opt for loan in 36 months to 60 months) for the entire dataset with the charged off dataset is 2.739 and 1.344. Both the ratio are not almost equal and that gives us the interesting pattern.
+21. Visually we can see from two graphs that, at 60 months, there is a raise in the second graph. It implies, defaulters are available in both terms. But for the term 60 months, more defaulters are found even though the entire dataset has less number of persons who opted for 60 months
+22. It is evident from the graph that, probability of the frequency of the people who charged off are those who are less than a year experienced
+23. We cannot count in 10+ experienced. Why? - As the frequency of the loan is more for 10+ experienced people, charge off count is more. With respect to the ratio of "ChargeOff/Total", person whose employment <1 year tends to be a defaulter
+24. From the graph on 'Annual Inc Vs Total Late fee (Mean)', it is known that people whose income falls between 1 Lakh - 4 Lakh and those who avail late fee tends to be a defaulter more.
+25. As the Grade increases, the probability of charge off is also increased.
+26. People who stated 'OTHER' as their Home ownership tend to charge off more.
+27. Next to 'OTHER', people who stated 'RENT' as their ownership tend to charge off more
 
 ## Technologies Used
 - Python
@@ -38,17 +60,8 @@ When a customer applies for a loan, the company can the following two decisions 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by sajan kedia
+- References Lhttps://github.com/sajankedia/LendingClubCaseStudy
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by ganesh babu g and Pravin  - feel free to contact us!
