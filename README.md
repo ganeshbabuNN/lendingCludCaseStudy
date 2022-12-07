@@ -1,5 +1,5 @@
 # Lending Club
-> .
+> Lending club is an online loan market platform, facilitating personal loans, business loans and loans for medical purposes. The objective of this case study is to identify the risky applicants who are likely to default and there by minimize the financial loss to the company by analyzing the past data through Exploratory data analysis(EDA).
 
 
 ## Table of Contents
@@ -9,7 +9,6 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
-Lending club is an online loan market platform, facilitating personal loans, business loans and loans for medical purposes. The objective of this case study is to identify the risky applicants who are likely to default and there by minimize the financial loss to the company by analyzing the past data through Exploratory data analysis(EDA).
 
 The case study helps you in developing a basic understanding of risk analytics in banking and financial services and understand how data is used to minimize the risk of losing money while lending to customers. When a consumer finance company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the company's decision.
   1. If applicant is likely to repay the loan, then not approving the loan will lead to loss of business to the company.
