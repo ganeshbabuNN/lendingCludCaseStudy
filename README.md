@@ -22,7 +22,7 @@ When a customer applies for a loan, the company can the following two decisions 
     
   2. Loan rejected: The company had rejected the loan after evaluating the candidate profile. Since loan is rejected, there is no transactional history of those applicants and hence data is not available with company.
 
-## Conclusions
+## Conclusions(Refer the Notebook/PDF for the order)
 1. There is a steady increase in the issuance of loan
 2. It is clear that 60 Lakhs as the annual income is an outlier as most people annual income fall between 0-2 Lakhs as we see in the previous graph
 3. 14.2% persons are labelled as 'Charged Off'
