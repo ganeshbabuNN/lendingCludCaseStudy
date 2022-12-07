@@ -64,4 +64,4 @@ Give credit here.
 - References Lhttps://github.com/sajankedia/LendingClubCaseStudy
 
 ## Contact
-Created by **ganesh babu g** and **Pravin**  - feel free to contact us!
+Created by **ganesh babu g** and **Pravin Pasi**  - feel free to contact us!
