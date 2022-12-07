@@ -61,7 +61,7 @@ When a customer applies for a loan, the company can the following two decisions 
 ## Acknowledgements
 Give credit here.
 - This project was inspired by sajan kedia
-- References Lhttps://github.com/sajankedia/LendingClubCaseStudy
+- References https://github.com/sajankedia/LendingClubCaseStudy
 
 ## Contact
-Created by ganesh babu g and Pravin  - feel free to contact us!
+Created by **ganesh babu g** and **Pravin**  - feel free to contact us!
